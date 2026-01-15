@@ -1,0 +1,39 @@
+country_event = {
+	id = 9999992
+	title = "Recieve transfer from $FROMCOUNTRY$?"
+	desc = ""
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	option = {
+		name = "yes"
+		FROM = {
+			country_event = {id = 9999993}
+		}
+	}
+	option = {
+		name = "no"
+	}
+}
+
+country_event = {
+	id = 9999993
+	title = "Transfer to $FROMCOUNTRY$?"
+	desc = ""
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	option = {
+		name = "yes"
+		any_owned = {
+			limit={
+				has_province_modifier = transfer_province
+			}
+			
+
+			secede_province = FROM
+		}
+	}
+
+	option = {
+		name = "no"
+	}
+}

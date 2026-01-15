@@ -1,0 +1,21 @@
+political_decisions = {
+	return_to_germany = {
+		potential = {
+			exists = GER
+			OR = {
+			tag = GBA
+			#Room for other German Substates
+			}
+		}
+		allow = {
+			is_independant = yes
+		}
+		effect = {
+			GBA = { all_core = { remove_core = GER } }
+			GER = {create_vassal = GBA}
+			GBA = { all_core = { add_core = GER } }
+		}
+	}
+
+
+}

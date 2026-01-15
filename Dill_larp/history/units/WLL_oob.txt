@@ -1,0 +1,55 @@
+#Wallonia 
+
+army = {
+	name = "Armee de Wallonie"
+	location = 392
+	
+	regiment = {
+	name = "1. Infanterie Wallonne"
+	type = infantry
+	home = 392
+	}
+	
+		regiment = {
+	name = "2. Infanterie Wallonne"
+	type = infantry
+	home = 392
+	}
+	
+	regiment = {
+	name = "3. Infanterie Wallonne"
+	type = infantry
+	home = 392
+	}
+	
+	regiment = {
+	name = "1. Cavalerie Wallonne"
+	type = cavalry
+	home = 394
+	}
+	
+	regiment = {
+	name = "1. Artillerie Wallonne"
+	type = artillery
+	home = 395
+	}
+	
+	regiment = {
+	name = "2. Artillerie Wallonne"
+	type = artillery
+	home = 396
+	}
+
+	regiment = {
+	name = "3. Artillerie Wallonne"
+	type = artillery
+	home = 397
+	}
+	
+	regiment = {
+	name = "4. Artillerie Wallonne"
+	type = artillery
+	home = 398
+	}
+}
+	

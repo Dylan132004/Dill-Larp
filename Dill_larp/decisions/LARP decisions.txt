@@ -1,0 +1,85 @@
+political_decisions = {
+	integrate_finland = {
+		potential = {
+			tag = RUS
+			exists = FIN
+			is_our_vassal = FIN
+			NOT = {has_country_flag = annexed_finland}
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+		}
+		effect = {
+			badboy = 8
+			inherit = FIN
+			any_pop = {
+				limit = {
+					culture = finnish
+				}
+				militancy = 6
+			}
+			any_pop = {
+				limit = {
+					culture = swedish
+				}
+				militancy = 6
+			}
+			set_country_flag = annexed_finland
+		}
+		ai_will_do = {
+			factor = 0
+		}
+
+
+	}
+
+	integrate_lombardy = {
+		picture = italia_irredenta
+		potential = {
+			tag = NET
+			exists = LUX
+			is_our_vassal = LUX
+			NOT = {has_country_flag = annexed_lombardy}
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+		}
+		effect = {
+			396 = {
+				remove_core = GER
+			}
+			397 = {
+				remove_core = GER
+			}
+			398 = {
+				remove_core = GER
+			}
+ 			396 = {
+				add_core = NET
+			}
+			397 = {
+				add_core = NET
+			}
+			398 = {
+				add_core = NET
+			}
+			badboy = 3
+			inherit = LUX
+			any_pop = {
+				limit = {
+					culture = north_german
+				}
+				militancy = 6
+			}
+			set_country_flag = annexed_lombardy
+		}
+		ai_will_do = {
+			factor = 0
+		}
+
+
+	}
+
+
+
+}

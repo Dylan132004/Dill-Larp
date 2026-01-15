@@ -1,0 +1,39 @@
+political_decisions = {
+	rangit_singh = {
+		potential = {
+			tag = POL
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+			NOT = {
+				exists = PLC
+			}
+			OR = {
+				AND = {
+					owns = 718	
+					owns = 958										owns = 360
+				}
+
+				AND = {
+					owns = 699
+					owns = 695
+					owns = 360
+				}
+
+			}
+
+		}
+		effect = {
+			badboy = 5
+			prestige = 20
+			change_tag = PLC			
+			plurality = 1
+			add_accepted_culture = polish
+			add_accepted_culture = lithuanian
+			add_accepted_culture = ashkenazi
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

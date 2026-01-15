@@ -1,0 +1,8 @@
+custom_national_focus = {
+	limit = { associationism = 1 }
+	news = no
+	chance = {
+		base = 100
+	}
+}
+

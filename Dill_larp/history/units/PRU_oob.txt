@@ -1,0 +1,683 @@
+ANH = {
+
+	value = 125
+	level = 5
+	influence_value = 25
+	military_access = yes
+}
+
+SGM = {
+
+	value = 125
+	level = 2
+	influence_value = 25
+	military_access = yes
+}
+
+HOL = {
+
+	value = 125
+	level = 5
+	influence_value = 25
+	military_access = yes
+}
+
+MAG = {
+
+	value = 125
+	level = 5
+	influence_value = 25
+	military_access = yes
+}
+
+PLT = {
+
+	value = 125
+	level = 5
+	influence_value = 25
+	military_access = yes
+}
+
+BRA = {
+	value = 125
+	level = 5
+	influence_value = 25
+	military_access = yes
+}
+
+BRE = {
+
+	value = 125
+	level = 5
+	influence_value = 25
+
+	military_access = yes
+
+}
+
+COB = {
+
+	value = 125
+
+	level = 5
+
+	influence_value = 25
+
+	military_access = yes
+
+}
+
+FRM = {
+
+	value = 125
+	level = 5
+	influence_value = 25
+	military_access = yes
+}
+
+HAM = {
+
+	value = 125
+
+	level = 5
+
+	influence_value = 25
+
+	military_access = yes
+
+}
+
+HAN = {
+
+	value = 125
+
+	level = 3
+
+	influence_value = 25
+
+	military_access = yes
+
+}
+
+HEK = {
+
+	value = 125
+
+	level = 5
+
+	influence_value = 25
+
+	military_access = yes
+
+}
+
+HES = {
+
+	value = 125
+
+	level = 5
+
+	influence_value = 25
+
+	military_access = yes
+
+}
+
+KRA = {
+
+	value = 125
+	level = 4
+	influence_value = 25
+
+}
+LIP = {
+
+	value = 125
+	level = 5
+	influence_value = 25
+
+	military_access = yes
+
+}
+
+LUB = {
+
+	value = 125
+
+	level = 5
+
+	influence_value = 25
+
+	military_access = yes
+
+}
+
+LUX = {
+
+	value = 125
+
+	level = 5
+
+	influence_value = 25
+
+}
+
+MEC = {
+
+	value = 125
+
+	level = 5
+
+	influence_value = 25
+
+	military_access = yes
+
+}
+
+MEI = {
+
+	value = 125
+
+	level = 5
+
+	influence_value = 25
+
+	military_access = yes
+
+}
+
+NAS = {
+
+	value = 125
+
+	level = 5
+
+	influence_value = 25
+
+	military_access = yes
+}
+
+OLD = {
+
+	value = 125
+
+	level = 5
+
+	influence_value = 25
+
+	military_access = yes
+}
+
+SAX = {
+
+	value = 50
+
+	level = 3
+
+	influence_value = 25
+
+	military_access = yes
+}
+
+WEI = {
+
+	value = 125
+
+	level = 5
+
+	influence_value = 25
+
+	military_access = yes
+
+}
+
+
+BAV = {
+
+	value = 75
+	level = 3
+	influence_value = 25
+
+	military_access = yes
+}
+
+
+BAD = {
+
+	value = 100
+
+	level = 3
+
+	influence_value = 20
+
+	military_access = yes
+
+}
+
+
+WUR = {
+	value = 100
+	level = 3
+	influence_value = 20
+	military_access = yes
+}
+
+AUS = {
+	value = 125
+}
+
+RUS = {
+	value = 125
+}
+
+FRA = {
+	value = -25
+}
+
+DEN = {
+
+	value = 49
+	level = 4
+	influence_value = 25
+
+}
+
+leader = {
+	name = "Karl von dem Knesebeck"
+	picture = pru_gen_knesebeck
+	date = 1813.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.3
+}
+leader = {
+	name = "Leopold von Boyen"
+	picture = pru_gen_boyen
+	date = 1813.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.3
+}
+leader = {
+	name = "Karl von M ffling"
+	picture = pru_gen_mueffling
+	date = 1813.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.3
+}
+leader = {
+	name = "Heinrich von Pfuel"
+	picture = pru_gen_pfuel
+	date = 1813.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.3
+}
+leader = {
+	name = "Karl von Grolman"
+	picture = pru_gen_grolman
+	date = 1815.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.3
+}
+leader = {
+	name = "Otto R hle von Lilienstern"
+	picture = pru_gen_lilienstern
+	date = 1819.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.3
+}
+leader = {
+	name = "Prinz Wilhelm"
+	picture = pru_gen_prinzwilhelm
+	date = 1820.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.2
+}
+leader = {
+	name = "Friedrich zu Dohna-Schlobitten"
+	picture = pru_gen_dohnaschlobitten
+	date = 1822.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.2
+}
+leader = {
+	name = "Friedrich von Wrangel"
+	picture = pru_gen_wrangel
+	date = 1823.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.2
+}
+leader = {
+	name = "Prinz Karl"
+	picture = pru_gen_prinzkarl
+	date = 1824.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.2
+}
+leader = {
+	name = "Wilhelm von Krauseneck"
+	picture = pru_gen_krauseneck
+	date = 1829.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.2
+}
+leader = {
+	name = "Peter von Colomb"
+	picture = pru_gen_colombpeter
+	date = 1829.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.2
+}
+leader = {
+	name = "August von Neumann-Cosel"
+	picture = pru_gen_neumanncosel
+	date = 1836.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+}
+leader = {
+	name = "Hans von Zieten"
+	picture = pru_gen_zieten
+	date = 1813.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.3
+}
+leader = {
+	name = "Ludwig von Borstell"
+	picture = pru_gen_borstell
+	date = 1813.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.3
+}
+leader = {
+	name = "Gustav von Rauch"
+	picture = pru_gen_rauch
+	date = 1815.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.3
+}
+leader = {
+	name = "Prinz August"
+	picture = pru_gen_prinzaugust
+	date = 1808.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.3
+}
+
+#Army
+
+army = {
+	name = "I.Preu ische Armee"
+	location = 680
+	
+	regiment = {
+	name = "I.1 Infanterie"
+	type = infantry
+	home = 695
+	}
+	regiment = {
+	name = "I.2 Infanterie"
+	type = infantry
+	home = 695
+	}
+	regiment = {
+	name = "I.3 Infanterie"
+	type = infantry
+	home = 695
+	}
+	regiment = {
+	name = "I.4 Infanterie"
+	type = infantry
+	home = 696
+	}
+	regiment = {
+	name = "I.1 Hussar"
+	type = hussar
+	home = 696
+	}
+	regiment = {
+	name = "I.1 Artillerie"
+	type = artillery
+	home = 682
+	}
+	regiment = {
+	name = "I.2 Artillerie"
+	type = artillery
+	home = 682
+	}
+	regiment = {
+	name = "I.3 Artillerie"
+	type = artillery
+	home = 682
+	}
+	regiment = {
+	name = "I.4 Artillerie"
+	type = artillery
+	home = 682
+	}
+	regiment = {
+	name = "I.5 Artillerie"
+	type = artillery
+	home = 701
+	}
+}
+
+	army = {
+	name = "II.Preu ische Armee"
+	location = 549
+	
+	regiment = {
+	name = "II.1 Infanterie"
+	type = infantry
+	home = 684
+	}
+	regiment = {
+	name = "II.2 Infanterie"
+	type = infantry
+	home = 684
+	}
+	regiment = {
+	name = "II.3 Infanterie"
+	type = infantry
+	home = 685
+	}
+	regiment = {
+	name = "II.4 Infanterie"
+	type = infantry
+	home = 685
+	}
+	regiment = {
+	name = "II.1 Hussar"
+	type = hussar 
+	home = 699
+	}
+	regiment = {
+	name = "II.1 Artillerie"
+	type = artillery
+	home = 549 
+	}
+	regiment = {
+	name = "II.2 Artillerie"
+	type = artillery
+	home = 549 
+	}
+	regiment = {
+	name = "II.3 Artillerie"
+	type = artillery
+	home = 546
+	}
+	regiment = {
+	name = "II.4 Artillerie"
+	type = artillery
+	home = 546 
+	}
+	regiment = {
+	name = "II.5 Artillerie"
+	type = artillery
+	home = 544 
+	}
+}
+
+army = {
+	name = "III.Preu ische Armee"
+	location = 681
+	
+	regiment = {
+	name = "III.1 Infanterie"
+	type = infantry
+	home = 681
+	}
+	regiment = {
+	name = "III.2 Infanterie"
+	type = infantry
+	home = 552
+	}
+	regiment = {
+	name = "III.3 Infanterie"
+	type = infantry
+	home = 550
+	}
+	regiment = {
+	name = "III.4 Infanterie"
+	type = infantry
+	home = 692
+	}
+	regiment = {
+	name = "III.1 Hussar"
+	type = hussar
+	home = 551
+	}
+	regiment = {
+	name = "III.1 Artillerie"
+	type = artillery
+	home = 548
+	}
+	regiment = {
+	name = "III.2 Artillerie"
+	type = artillery
+	home = 548
+	}
+	regiment = {
+	name = "III.3 Artillerie"
+	type = artillery
+	home = 545
+	}
+	regiment = {
+	name = "III.4 Artillerie"
+	type = artillery
+	home = 582
+	}
+	regiment = {
+	name = "III.5 Artillerie"
+	type = artillery
+	home = 582
+	}
+}
+
+army = {
+	name = "IV.Preu ische Armee"
+	location = 578
+	
+	regiment = {
+	name = "IV.1 Infanterie"
+	type = infantry
+	home = 578
+	}
+	regiment = {
+	name = "IV.2 Infanterie"
+	type = infantry
+	home = 578
+	}
+	regiment = {
+	name = "IV.3 Infanterie"
+	type = infantry
+	home = 580
+	}
+	regiment = {
+	name = "IV.4 Infanterie"
+	type = infantry
+	home = 580
+	}
+	regiment = {
+	name = "IV.1 Hussar"
+	type = hussar
+	home = 2561
+	}
+	regiment = {
+	name = "IV.1 Artillerie"
+	type = artillery
+	home = 575
+	}
+	regiment = {
+	name = "IV.2 Artillerie"
+	type = artillery
+	home = 575
+	}
+	regiment = {
+	name = "IV.3 Artillerie"
+	type = artillery
+	home = 576
+	}
+	regiment = {
+	name = "IV.4 Artillerie"
+	type = artillery
+	home = 581
+	}
+	regiment = {
+	name = "IV.5 Artillerie"
+	type = artillery
+	home = 581
+	}
+}
+
+navy = {
+	name = "K niglich Preu ische Marine"
+	location = 690
+	ship = {
+		name= "1. Klipperflottille"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2. Klipperflottille"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3. Klipperflottille"
+		type = clipper_transport
+	}
+
+}
+

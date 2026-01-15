@@ -1,0 +1,61 @@
+# Hungarian Independence
+country_event = {
+	id = 123412352
+	title = "Hungarian Independence!"
+	desc = "After hundreds of years of foreign rule, Hungary is now a fully independent nation!"
+	major = yes
+	picture = "greatpowers"
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = AHU
+		is_independant = yes
+		war = no
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "At last!"
+		remove_country_modifier = negative_mobilization
+		primary_culture = hungarian
+		remove_accepted_culture = croat
+		remove_accepted_culture = south_german
+		remove_accepted_culture = czech
+		change_tag = HUN
+	}
+}
+
+# Croatian Independence
+country_event = {
+	id = 123412353
+	title = "Croatian Independence!"
+	desc = "After hundreds of years of foreign rule, Croatia is now a fully independent nation!"
+	major = yes
+	picture = "greatpowers"
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = ACR
+		is_independant = yes
+		war = no
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "At last!"
+		remove_country_modifier = negative_mobilization
+		primary_culture = croat
+		remove_accepted_culture = hungarian
+		remove_accepted_culture = south_german
+		remove_accepted_culture = czech
+		change_tag = CRO
+	}
+}

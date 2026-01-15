@@ -1,0 +1,22 @@
+army = {
+	name = "Kroatische Erste Armee"
+	location = 771
+	
+	regiment = {
+	name = "1. Pjesacka Brigada"
+	type = infantry
+	home = 771
+	}
+	
+	regiment = {
+	name = "2. Pjesacka Brigada"
+	type = infantry
+	home = 773
+	}
+	
+	regiment = {
+	name = "1. Konjicka Brigada"
+	type = hussar
+	home = 768
+	}
+}

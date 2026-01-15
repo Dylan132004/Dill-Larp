@@ -1,0 +1,19 @@
+#2560 / 597
+
+army = {
+	name = "Army of the Duke of Franconia"
+	location = 597
+	
+	regiment = {
+	name = "1. Franconian Hussars"
+	type = hussar 
+	home = 2560
+	}
+
+	regiment = {
+	name = "2.Franconian Hussars"
+	type = hussar
+	home = 2560
+	}
+}
+

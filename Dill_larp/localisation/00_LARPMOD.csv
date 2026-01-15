@@ -1,0 +1,79 @@
+;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;x;;;;
+SOU;The South;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+SOU_ADJ;American;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+AHU;Hungary;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+AHU_ADJ;Hungarian;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+GBA;Bavaria;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+GBA_ADJ;Bavarian;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+ACR;Croatia;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+ACR_ADJ;Croatian;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+SAD;Sardinia;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+SAD_ADJ;Sardinian;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+GEN;Silesia;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+GEN_ADJ;Silesian;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+MIL;Milan;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+MIL_ADJ;Milanese;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+ISE;Isenburg;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+ISE_ADJ;Isenburgian;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+BYR;Bayreuth;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+BYR_ADJ;Bayreuthian;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+FRC;Franconia;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+FRC_ADJ;Franconian;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+SAR;Sardinia-Piedmont;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+PLT;Palatinate;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+PLT_ADJ;Palatinatean;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+MAG;Magdeburg;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+MAG_ADJ;Magdeburgian;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+PROV3302;Boulogne;x
+PROV3301;Suwalki;x
+AUS_588;Konstanz;x
+RUS_952;Ruthenia;x
+EVTOPTA368988;Gift her Heligoland!;Gift her Heligoland!;Gift her Heligoland!;;Gift her Heligoland!;;;;;;;;;x;
+master_alliances_title;Gain Master Vision Alliances;x
+master_alliances_desc;This utility decision allows puppets to have the same alliances as their masters.;;;;;;;;;;;;;;;;;;;;;;;;;x
+return_to_germany_title;Return to Germany;x
+return_to_germany_desc;Through outside intervention or the act of rebels, our government has been separated from the rest of Germany. We must immediately rejoin Germany.;;;;;;;;;;;;;;;;;;;;;;;;;x
+integrate_finland_title;Integrate the Grand Duchy of Finland;x
+integrate_finland_desc;Founded in 1809, the Grand Duchy of Finland was an autonomous region created after the annexation of the region in the Finnish War. Over the past few decades, the region has been a thorn in side, serving as an example of reform and cultural independence. We must revoke Finland's autonomy and begin Russification.;;;;;;;;;;;;;;;;;;;;;;;;;x
+integrate_lombardy_title;Integrate the Duchy of Luxemburg;x
+integrate_lombardy_desc;Created in 1815, the Duchy of Luxemburg was created as a compromise between the pro-Dutch Austrian and the influential Prussian faction. Nominally independent, but a defacto Dutch vassal, we've achieved everything we've wanted in germany while not rocking the boat. However, with the rise of nationialism in the German confederation, we must protect our holdings by directly incorporating Luxembourg into Netherlands proper.;;;;;;;;;;;;;;;;;;;;;;;;;x
+custom_national_focus;§GAdditionial National Focuses;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+custom_national_focus_desc;Unlocks additionial national focuses.;;;;;;;;;;;;;;;;;;;;x,,,,,;;;;;;;;;;;;;;;;;;;;,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+make_democratic;Install Democratic Government;;;;;;;;;;;x
+make_democratic_desc;Install a Democratic Government in a target country.;;;;;;;;;;;;x
+make_democratic_short;Install a Democratic Government in $RECIPIENT$.;;;;;;;;;;;;;x
+make_democratic_setup;Install a Democratic Government in $RECIPIENT$.;;;;;;;;;;;;x
+make_facist;Install Fascist Dictatorship;;;;;;;;;;;x
+make_facist_desc;Install a Fascist Dictatorship in a target country.;;;;;;;;;;;;x
+make_facist_short;Install a Fascist Dictatorship in $RECIPIENT$.;;;;;;;;;;;;;x
+make_facist_setup;Install a Fascist Dictatorship in $RECIPIENT$.;;;;;;;;;;;;x
+remove_truce;Remove Truce;;;;;;;;;;;x
+remove_truce_desc;Remove a truce with a target country.;;;;;;;;;;;;x
+remove_truce_short;Remove truce with $RECIPIENT$.;;;;;;;;;;;;;x
+remove_truce_setup;Remove truce with $RECIPIENT$.;;;;;;;;;;;;x
+two_USAs;Two USA Leadership Nerf;;;;;;;;;;;;;x
+desc_two_USAs;As there are now two nations in the USA, this modifier is present to prevent an OP amount of generals.;;;;;;;;;;;;;x
+csa_declare_independence_title;Secede From the Union;x
+csa_declare_independence_desc;The North has gone too far, these United States shall be united no longer! The Southern States shall form their own confederacy independent of the North. It is up to them to determine if this happens peacefully or by force.;;;;;;;;;;;;;;;;;;;;;;;;;x
+show_transfer_title;Show Province Transfer;x
+show_transfer_desc;Show province transfer decisions.;;;;;;;;;;;;;;;;;;;;;;;;;x
+hide_transfer_title;Hide Province Transfers;x
+hide_transfer_desc;Hide province transfer decisions;;;;;;;;;;;;;;;;;;;;;;;;;x
+transfer_state_title;Transfer Marked Provinces;x
+transfer_state_desc;Transfer provinces that have been marked by the host.;;;;;;;;;;;;;;;;;;;;;;;;;x
+allow_transfer_title;Allow Receiving of Transfers;x
+allow_transfer_desc;Enable to be able to receive event transfers.;;;;;;;;;;;;;;;;;;;;;;;;;x
+deny_transfer_title;Deny Receiving of Transfer;x
+deny_transfer_desc;Enable to stop seeing event transfers.;;;;;;;;;;;;;;;;;;;;;;;;;x
+civ_ETH_title;Civilize Ethiopia;x
+civ_ETH_desc;Decision to automatically civilize Ethiopia.;;;;;;;;;;;;;;;;;;;;;;;;;x
+civ_EGY_title;Civilize Egypt;x
+civ_EGY_desc;Decision to automatically civilize Egypt.;;;;;;;;;;;;;;;;;;;;;;;;;x
+civ_PER_title;Civilize Persia;x
+civ_PER_desc;Decision to automatically civilize Persia.;;;;;;;;;;;;;;;;;;;;;;;;;x
+civ_JAP_title;Civilize Japan;x
+civ_JAP_desc;Decision to automatically civilize Japan.;;;;;;;;;;;;;;;;;;;;;;;;;x
+civ_CHI_title;Civilize China;x
+civ_CHI_desc;Decision to automatically civilize China.;;;;;;;;;;;;;;;;;;;;;;;;;x
+annex_SOU_title;Annex The South;x
+annex_SOU_desc;Civil War skip for the USA.;;;;;;;;;;;;;;;;;;;;;;;;;x

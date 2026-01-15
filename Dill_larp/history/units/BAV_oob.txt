@@ -1,0 +1,79 @@
+#Bavaria
+
+leader = {
+	name = "Maximillian Von Bayern"
+	picture = bad_gen_leopold
+	date = 1813.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.5
+}
+
+army = {
+	name = "Bayerische Armee"
+	location = 593
+	
+	
+	regiment = {
+	name = "1. Infanterie Brigade"
+	type = infantry
+	home = 593
+	}
+	
+	regiment = {
+	name = "2. Infanterie Brigade"
+	type = infantry
+	home = 593
+	}
+	
+	regiment = {
+	name = "3. Infanterie Brigade"
+	type = infantry
+	home = 589
+	}
+	
+	regiment = {
+	name = "4. Infanterie Brigade"
+	type = infantry
+	home = 589
+	}
+	
+	regiment = {
+	name = "1. Kavallerie Brigade"
+	type = hussar
+	home = 589
+	}
+	
+	regiment = {
+	name = "1. Artillerie Brigade"
+	type = artillery
+	home = 592
+	}
+	
+	regiment = {
+	name = "2. Artillerie Brigade"
+	type = artillery
+	home = 595
+	}
+
+	regiment = {
+	name = "3. Artillerie Brigade"
+	type = artillery
+	home = 595
+	}
+
+	regiment = {
+	name = "4. Artillerie Brigade"
+	type = artillery
+	home = 586
+	}
+	
+	regiment = {
+	name = "5. Artillerie Brigade"
+	type = artillery
+	home = 587
+	}
+	
+}
+	

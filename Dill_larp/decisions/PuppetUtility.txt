@@ -1,0 +1,17 @@
+political_decisions = {
+	master_alliances = {
+		potential = {
+			is_independant = no
+			ai = no
+		}
+		allow = {
+			is_independant = no
+		}
+		effect = {
+			overlord = { country_event = { id=707070 days=1 } }
+
+		}
+	}
+
+
+}

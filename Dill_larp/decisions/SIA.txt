@@ -1,0 +1,72 @@
+political_decisions = {
+	liberate_liberia = {
+   		 potential = {
+		 	tag = SIA
+		 	NOT = {
+				has_country_flag = liberia_liberated
+				}
+    		}
+
+    		allow = { 
+				nationalism_n_imperialism = 1
+				war = no
+				owns = 1364
+				owns = 1380
+				owns = 1369
+				owns = 1356
+				all_core = {
+								owner = {
+								tag = SIA
+								
+							}
+						}
+
+    		}
+
+    		effect = {
+        		add_accepted_culture = vietnamese
+			add_accepted_culture = lao
+			add_accepted_culture = khmer
+			set_country_flag = liberia_liberated
+
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+    	}
+
+	liberian_constitution = {
+		potential = {
+			tag = SIA
+			NOT = {
+				has_country_flag = liberian_constitution_enacted
+				}
+		}
+
+		allow = {
+			revolution_n_counterrevolution = 1
+			owns = 1334
+			owns = 1343	
+			owns = 1330
+			owns = 1345
+			owns = 1339
+			all_core = {
+								owner = {
+								tag = SIA
+								
+							}
+						}
+		}
+
+		effect = {
+			set_country_flag = liberian_constitution_enacted
+			prestige = 5
+			add_accepted_culture = burmese
+			}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

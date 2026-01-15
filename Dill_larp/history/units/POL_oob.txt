@@ -1,0 +1,64 @@
+leader = {
+	name = "Duke Fryderyk August I"
+	picture = bad_gen_leopold
+	date = 1813.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.5
+}
+
+army = {
+	name = "Armia Republiki"
+	location = 711
+	regiment = {
+		name = "1. Brygada Piechoty Polskiej"
+		type = infantry
+		home = 706
+		}
+	regiment = {
+		name = "2. Brygada Piechoty Polskiej"	
+		type = infantry
+		home = 712
+	}
+	regiment = { 	
+		name = "3. Brygada Piechoty Polskiej"
+		type = infantry
+		home = 711
+		}
+	regiment = { 
+		name = "4. Brygade Piechoty Polskiej"		
+		type = infantry
+		home = 940
+		}
+	regiment = {
+		name = "1. Husarska Krakowska"
+		type = hussar
+		home = 703
+		}
+	regiment = {
+		name = "Artyleria Tarnowska"
+		type = artillery
+		home = 714
+		}
+	regiment = {
+		name = "Artyleria Nowosadecka"
+		type = artillery
+		home = 704
+		}
+	regiment = {
+		name = "Artyleria Przemyslska"
+		type = artillery
+		home = 705
+		}
+	regiment = {
+		name = "Artyleria Lwowska"
+		type = artillery
+		home = 702
+		}
+	regiment = {
+		name = "Artyleria Brzeska"		#
+		type = artillery
+		home = 937
+		}
+}			

@@ -1,0 +1,97 @@
+political_decisions = {
+	
+	civ_ETH = {
+		potential = {
+			ETH = { civilized = no }
+			tag = LCT
+		}
+		allow = { 
+			tag = LCT
+			ai = no
+		}
+		effect = {
+			ETH = { civilized = yes}
+		}
+	}
+	civ_EGY = {
+		potential = {
+			EGY = { civilized = no }
+			tag = LCT
+		}
+		allow = { 
+			tag = LCT
+			ai = no
+		}
+		effect = {
+			EGY = { civilized = yes}
+
+		}
+	}
+	civ_PER = {
+		potential = {
+			PER = { civilized = no }
+			tag = LCT
+		}
+		allow = { 
+			tag = LCT
+			ai = no
+		}
+		effect = {
+			PER = { civilized = yes}
+		}
+	}
+	civ_JAP = {
+		potential = {
+			JAP = { civilized = no }
+			tag = LCT
+		}
+		allow = { 
+			tag = LCT
+			ai = no
+		}
+		effect = {
+			JAP = { civilized = yes}
+		}
+	}
+	civ_CHI = {
+		potential = {
+			JAP = { civilized = no }
+			tag = LCT
+		}
+		allow = { 
+			tag = LCT
+			ai = no
+		}
+		effect = {
+			CHI = { civilized = yes}
+		}
+	}
+	annex_SOU = {
+		potential = {
+			exists = SOU
+			tag = LCT
+		}
+		allow = { 
+			tag = LCT
+			ai = no
+		}
+		effect = {
+		USA = { release_vassal = SOU }
+		USA = { inherit = SOU }
+		USA = { add_accepted_culture = dixie}
+		USA = { add_accepted_culture = afro_american} 
+		USA = { political_reform = no_slavery  }
+		USA = {set_country_flag = south_american_immigrant_nation }
+		USA = { remove_country_modifier = two_USAs}
+		
+		SOU = { all_core = { add_core = USA} }
+		SOU = {	all_core = { remove_core = SOU } }
+			
+		
+		}
+		}
+	
+	
+	
+	
+}

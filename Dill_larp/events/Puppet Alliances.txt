@@ -1,0 +1,31 @@
+#Give puppets vision
+country_event = {
+	title = "Give Vision Alliances"
+	desc = "Gives vision alliances to your puppets"
+
+	id = 707070
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Sure"
+		any_country = {
+			limit = {
+				alliance_with = THIS
+				NOT = { alliance_with = FROM}
+			}
+			create_alliance = FROM
+
+		}
+		any_country = {
+			limit = {
+				NOT = {alliance_with = THIS}
+				alliance_with = FROM
+			}
+			leave_alliance = FROM
+
+		}
+	}
+
+	
+}

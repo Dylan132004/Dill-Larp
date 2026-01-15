@@ -1,0 +1,146 @@
+#Hungary
+#Hungary
+#641 x5
+#649 
+
+
+leader = {
+	name = "Leopold Radetsky"
+	picture = bad_gen_leopold
+	date = 1813.1.1
+	type = land
+	personality = defence_1.1
+	background = attack_1.1
+	prestige = 0.5
+}
+
+
+army = {
+	name = "First Hungarian Army"
+	location = 641
+	
+	regiment = {
+	name = "1. Gyalogdandar"
+	type = infantry
+	home = 641
+	}
+	
+	regiment = {
+	name = "2. Gyalogdandar"
+	type = infantry
+	home = 641
+	}
+	
+	regiment = { 
+	name = "3. Gyalogdandar"
+	type = infantry
+	home = 641
+	}
+	
+	regiment = {
+	name = "4. Gyalogdandar"
+	type = infantry
+	home = 641
+	}
+	
+	regiment = { 
+	name = "1. Lovasdandar"
+	type = hussar
+	home = 641
+	}
+	
+	regiment = {
+	name = "1. Tuzerdandar"
+	type = artillery
+	home = 649
+	}
+	
+	regiment = {
+	name = "2. Tuzerdandar"
+	type = artillery
+	home = 648
+	}
+	
+	regiment = {
+	name = "3. Tuzerdandar"
+	type = artillery
+	home = 647
+	}
+	
+	regiment = {
+	name = "4. Tuzerdandar"
+	type = artillery
+	home = 633
+	}
+	
+	regiment = {
+	name = "5. Tuzerdandar"
+	type = artillery
+	home = 637
+	}
+}
+
+army = {
+	name = "Second Hungarian Army"
+	location = 640
+	
+	
+	regiment = { 
+	name = "1. Gyalogdandar"
+	type = infantry
+	home = 639
+	}
+	regiment = {
+	name = "2. Gyalogdandar"
+	type = infantry
+	home = 644
+	}
+	regiment = {
+	name = "3. Gyalogdandar"
+	type = infantry
+	home = 640
+	}
+	
+	regiment = {
+	name = "4. Gyalogdandar"
+	type = infantry
+	home = 643
+	}
+	
+	regiment = { 
+	name = "1.Lovasdandar"
+	type = hussar 
+	home = 642
+	}
+	
+	regiment = {
+	name = "1.Tuzerdandar"
+	type = artillery
+	home = 633
+	}
+	
+		regiment = {
+	name = "2.Tuzerdandar"
+	type = artillery
+	home = 633
+	}
+	
+	regiment = {
+	name = "3.Tuzerdandar"
+	type = artillery
+	home = 633
+	}
+	regiment = {
+	name = "4.Tuzerdandar"
+	type = artillery
+	home = 633
+	}
+	
+	regiment = {
+	name = "5.Tuzerdandar"
+	type = artillery
+	home = 633
+	}
+}
+	
+	

@@ -1,0 +1,20 @@
+political_decisions = {
+	
+	
+	fix_south = {
+		picture = suezcanal
+		potential = {
+			tag = GHO
+		}
+		allow = {
+			NOT = { has_country_flag = south_fix}
+		}
+		effect = {
+			USA = { prestige = -150 }
+			set_country_flag = south_fix
+		}
+	}	
+
+	
+
+}
