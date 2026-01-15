@@ -30,14 +30,14 @@ battleship = {
 	}
 	min_port_level = 4
 	limit_per_port = -1 #-1 is unlimited, but it is possible to limit number of ships per port level.
-	supply_consumption_score = 0
+	supply_consumption_score = 50
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		steamer_convoy = 2.25 #2.5 #75
-		artillery = 0.0675 #0.075       #40
-		canned_food = 0.36 #0.4     #4
-		coal = 0.36 #0.4
+		steamer_convoy = 2.5 #75
+		artillery = 0.075       #40
+		canned_food = 0.4     #4
+		coal = 0.4
 		#steel = 5             #23.5
 		#coal = 3.3            #7.59 total 149.4
 		fuel = 1.05
