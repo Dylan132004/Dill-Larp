@@ -94,9 +94,10 @@ RUS = {
 	value = 100
 }
 
-ANH = {
-	value = -150
-	level = 0
+BAV = {
+	value = 150
+	level = 5
+	influence_value = 25
 }
 
 LCT = {

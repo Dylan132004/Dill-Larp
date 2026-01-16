@@ -233,7 +233,7 @@ country_event = {
 	
 	option = {
 		name = "Alright, sounds good."
-		remove_country_modifier = china_rp_nerf
+		#remove_country_modifier = china_rp_nerf
 		ai_chance = {
 			factor = 1.0
 		}

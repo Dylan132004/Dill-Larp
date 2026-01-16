@@ -47,6 +47,10 @@ make_facist;Install Fascist Dictatorship;;;;;;;;;;;x
 make_facist_desc;Install a Fascist Dictatorship in a target country.;;;;;;;;;;;;x
 make_facist_short;Install a Fascist Dictatorship in $RECIPIENT$.;;;;;;;;;;;;;x
 make_facist_setup;Install a Fascist Dictatorship in $RECIPIENT$.;;;;;;;;;;;;x
+make_monarchy;Install Monarchy;;;;;;;;;;;x
+make_monarchy_desc;Install a Monarchy in a target country.;;;;;;;;;;;;x
+make_monarchy_short;Install a Monarchy in $RECIPIENT$.;;;;;;;;;;;;;x
+make_monarchy_setup;Install a Monarchy in $RECIPIENT$.;;;;;;;;;;;;x
 remove_truce;Remove Truce;;;;;;;;;;;x
 remove_truce_desc;Remove a truce with a target country.;;;;;;;;;;;;x
 remove_truce_short;Remove truce with $RECIPIENT$.;;;;;;;;;;;;;x

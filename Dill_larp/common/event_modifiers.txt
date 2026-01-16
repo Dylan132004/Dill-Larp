@@ -114,6 +114,7 @@ uncivilized_isolationism = {
 
 china_rp_nerf = {
 	research_points_on_conquer = -1000.0
+	cb_generation_speed_modifier = -1000.0
 	icon = 10
 }
 

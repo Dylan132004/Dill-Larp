@@ -36,3 +36,23 @@ country_event = {
 }
 
 
+country_event = {
+	id = 11223344
+	title = "Absolute monarchy installed!"
+	desc = "Our government type has changed!"
+	is_triggered_only = yes
+
+	immediate = {
+		government = absolute_monarchy
+		ruling_party_ideology = reactionary
+		political_reform = underground_parties
+		political_reform = none_voting
+		political_reform = party_appointed
+		political_reform = state_press
+		political_reform = no_meeting
+		political_reform = no_trade_unions
+	}
+	option = {
+		name = "Interesting."
+	}
+}
