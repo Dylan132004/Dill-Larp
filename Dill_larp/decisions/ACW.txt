@@ -253,7 +253,6 @@ political_decisions = {
 		}
 		
 		effect = {
-			set_country_flag = south_american_immigrant_nation
 			add_country_modifier = {
 				name = the_homestead_act
 				duration = -1
@@ -373,7 +372,6 @@ political_decisions = {
 		effect = {
 			set_country_flag = emancipation
 			prestige = 5
-			add_accepted_culture = afro_american
 			political_reform = no_slavery
 			any_pop = {
 				limit = {

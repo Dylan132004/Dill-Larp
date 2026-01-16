@@ -44,7 +44,8 @@ take_from_sphere
 status_quo 
 gunboat 
 conquest 
-civil_war 
+civil_war
+install_friendly_monarch 
 acquire_core_state_tiny
 acquire_core_state_small
 acquire_core_state_medium
@@ -95,6 +96,7 @@ rude_boy
 annex
 make_facist
 make_democratic
+make_monarchy
 install_communist_gov_cb
 uninstall_communist_gov_cb
 great_war_penalty_cb
@@ -4828,4 +4830,71 @@ remove_truce = {
 			value = 0.00
 		}
 	}
+}
+
+make_monarchy = {
+
+	sprite_index = 10
+	is_triggered_only = yes
+	months = 12
+	crisis = no
+
+	construction_speed = 0.5
+	
+	badboy_factor = 100
+	prestige_factor = 2
+	peace_cost_factor = 0.012
+
+	break_truce_prestige_factor = 1
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 0
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+	
+	can_use = {
+		NOT = { tag = LCT }
+		NOT = { tag = GHO }
+		NOT = { 
+			OR = { 
+				has_country_modifier = neutrality
+				has_country_modifier = generic_neutrality
+			}
+		}
+		THIS = { NOT = {
+				OR = {
+					has_country_modifier = neutrality
+					has_country_modifier = generic_neutrality
+				}
+			 } 
+		}
+		OR = {
+					government = proletarian_dictatorship
+					government = presidential_dictatorship
+					government = bourgeois_dictatorship
+					government = democracy
+					government = fascist_dictatorship
+					government = prussian_constitutionalism
+					government = hms_government
+				}
+
+		THIS = {
+			government = absolute_monarchy
+		}
+	}
+
+
+
+	war_name = WAR_INSTALL_NEW_GOV_NAME
+
+	po_remove_prestige = yes
+	on_po_accepted = {
+		#any_owned = {
+		#	secede_province = SGE
+		#}
+		country_event = 11223344
+	}
+
 }
